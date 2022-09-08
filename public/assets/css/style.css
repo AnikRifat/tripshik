@@ -7082,7 +7082,7 @@ Nav Area Style
 }
 
 .ride-banner-area .banner-img img {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .ride-banner-area .banner-item {
@@ -7097,12 +7097,12 @@ Nav Area Style
 
 .ride-banner-area .banner-item .banner-video a {
   display: inline-block;
-  width: 95px;
-  height: 95px;
-  line-height: 103px;
-  border-radius: 50%;
+  width: 150px;
+  height: 100px;
+  /* line-height: 103px; */
+  border-radius: 5px;
   background-color: #f42e14;
-  font-size: 49px;
+  font-size: 5rem;
   color: #ffffff;
   margin-bottom: 15px;
 }
@@ -15901,7 +15901,7 @@ Nav Area Style
 /*====================================================
 INNER PAGE STYLE AREA
 ======================================================*/
-/* 
+/*
 
 /*
 Page Title Area Style
@@ -16275,7 +16275,7 @@ Sign In & Log In  Area Style
   margin-bottom: 30px;
 }
 
-/* 
+/*
 Coming Soon Area Style
 =====================================================*/
 .coming-soon-area {
@@ -18002,7 +18002,7 @@ Product Area Style
   text-decoration: none;
 }
 
-/* 
+/*
 Cart Area Style
 =====================================================*/
 .cart-area h3 {
@@ -18266,8 +18266,8 @@ Cart Area Style
   top: 4px;
 }
 
-/* 
-Checkout Area Style 
+/*
+Checkout Area Style
 =====================================================*/
 .checkout-area h3 {
   font-weight: 700;

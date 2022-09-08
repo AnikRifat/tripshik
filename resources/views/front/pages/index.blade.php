@@ -17,13 +17,7 @@
                     </a>
                 </div>
                 <h1>Personal and Friendly Ride <span>Sharing in City</span></h1>
-                <form>
-                    <input type="text" class="form-control" placeholder="Email address">
-                    <button type="submit" class="btn banner-btn">
-                        Get Notified
-                        <i class='bx bx-right-arrow-alt'></i>
-                    </button>
-                </form>
+
             </div>
         </div>
     </div>
@@ -273,7 +267,7 @@
     <!-- End Process -->
 
     <!-- Where -->
-    <section id="destination" class="ride-where-area pt-100">
+    {{-- <section id="destination" class="ride-where-area pt-100">
         <div class="where-shape">
             <img src="assets/img/ride/where.png" alt="Shape">
         </div>
@@ -393,7 +387,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End Where -->
 
     <!-- Patronize -->
@@ -832,7 +826,7 @@
     <!-- End Register -->
 
     <!-- Subscribe -->
-    <section class="ride-subscribe-area">
+    {{-- <section class="ride-subscribe-area">
         <div class="subscribe-shape">
             <img src="assets/img/ride/subscribe1.png" alt="Shape">
             <img src="assets/img/ride/subscribe2.png" alt="Shape">
@@ -853,7 +847,7 @@
                 </form>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End Subscribe -->
 
 </div>

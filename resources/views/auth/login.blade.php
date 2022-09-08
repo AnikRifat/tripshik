@@ -1,6 +1,6 @@
 @extends('front.master.app')
 
-@section('main-bodygi')
+@section('main-body')
 
 
 <!-- Start Page Title Area -->
