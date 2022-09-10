@@ -34,13 +34,8 @@
     <!-- Start Other Option -->
     <div class="others-option app">
         <div class="host-nav-wrap">
-            <div class="language">
-                <select>
-                    <option>English</option>
-                    <option>العربيّة</option>
-                    <option>Deutsch</option>
-                    <option>Português</option>
-                </select>
+            <div class="language" id="google_translate_element">
+
             </div>
             <div class="purchase-btn">
                 <a href="{{ route('login') }}">Login</a>
@@ -52,3 +47,6 @@
     </div>
     <!-- End Other Option -->
 </div>
+<script>
+
+</script>

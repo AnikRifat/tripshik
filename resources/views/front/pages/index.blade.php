@@ -7,7 +7,7 @@
     <!-- Banner -->
     <div id="home" class="ride-banner-area">
         <div class="banner-img">
-            <img src="assets/img/ride/banner-bg.png" alt="Banner">
+            <img src="{{ asset('/') }}assets/front/img/ride/banner-bg.png" alt="Banner">
         </div>
         <div class="container">
             <div class="banner-item">
@@ -26,8 +26,8 @@
     <!-- Feature -->
     <div class="ride-feature-area">
         <div class="feature-shape">
-            <img src="assets/img/ride/feature1.png" alt="Shape">
-            <img src="assets/img/ride/feature2.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/feature1.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/feature2.png" alt="Shape">
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -87,10 +87,10 @@
     <!-- Service -->
     <section id="service" class="ride-service-area">
         <div class="service-shape">
-            <img src="assets/img/ride/service5.png" alt="Shape">
-            <img src="assets/img/ride/service6.png" alt="Shape">
-            <img src="assets/img/ride/service7.png" alt="Shape">
-            <img src="assets/img/ride/service8.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/service5.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/service6.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/service7.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/service8.png" alt="Shape">
         </div>
         <div class="container">
             <div class="ride-section-title">
@@ -115,7 +115,7 @@
                 <div class="col-lg-7">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="assets/img/ride/service2.png" alt="Service">
+                            <img src="{{ asset('/') }}assets/front/img/ride/service2.png" alt="Service">
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                 <div class="col-lg-7">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="assets/img/ride/service3.png" alt="Service">
+                            <img src="{{ asset('/') }}assets/front/img/ride/service3.png" alt="Service">
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                 <div class="col-lg-7">
                     <div class="service-item">
                         <div class="service-img">
-                            <img src="assets/img/ride/service4.png" alt="Service">
+                            <img src="{{ asset('/') }}assets/front/img/ride/service4.png" alt="Service">
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
     <!-- Download -->
     <section class="ride-download-area">
         <div class="download-shape">
-            <img src="assets/img/ride/download6.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/download6.png" alt="Shape">
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -188,12 +188,12 @@
                         <ul>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/ride/download1.png" alt="Download">
+                                    <img src="{{ asset('/') }}assets/front/img/ride/download1.png" alt="Download">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="assets/img/ride/download2.png" alt="Download">
+                                    <img src="{{ asset('/') }}assets/front/img/ride/download2.png" alt="Download">
                                 </a>
                             </li>
                         </ul>
@@ -201,8 +201,8 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="download-item download-img">
-                        <img src="assets/img/ride/download3.png" alt="Download">
-                        <img src="assets/img/ride/download4.png" alt="Download">
+                        <img src="{{ asset('/') }}assets/front/img/ride/download3.png" alt="Download">
+                        <img src="{{ asset('/') }}assets/front/img/ride/download4.png" alt="Download">
                     </div>
                 </div>
             </div>
@@ -218,14 +218,14 @@
                 <h2>Our Working <span>Process</span></h2>
             </div>
             <div class="process-img">
-                <img src="assets/img/ride/process2.png" alt="Process">
+                <img src="{{ asset('/') }}assets/front/img/ride/process2.png" alt="Process">
             </div>
             <div class="row">
                 <div class="col-sm-6 col-lg-3">
                     <div class="process-item">
                         <span>01</span>
                         <div class="process-icon">
-                            <img src="assets/img/ride/process1.png" alt="Shape">
+                            <img src="{{ asset('/') }}assets/front/img/ride/process1.png" alt="Shape">
                             <i class='bx bx-map-alt'></i>
                         </div>
                         <p>Where?</p>
@@ -235,7 +235,7 @@
                     <div class="process-item process-two">
                         <span>02</span>
                         <div class="process-icon">
-                            <img src="assets/img/ride/process1.png" alt="Shape">
+                            <img src="{{ asset('/') }}assets/front/img/ride/process1.png" alt="Shape">
                             <i class='bx bxs-car'></i>
                         </div>
                         <p>Find Driver</p>
@@ -245,7 +245,7 @@
                     <div class="process-item process-three">
                         <span>03</span>
                         <div class="process-icon">
-                            <img src="assets/img/ride/process1.png" alt="Shape">
+                            <img src="{{ asset('/') }}assets/front/img/ride/process1.png" alt="Shape">
                             <i class='bx bx-location-plus'></i>
                         </div>
                         <p>Estimate</p>
@@ -255,7 +255,7 @@
                     <div class="process-item process-four">
                         <span>04</span>
                         <div class="process-icon">
-                            <img src="assets/img/ride/process1.png" alt="Shape">
+                            <img src="{{ asset('/') }}assets/front/img/ride/process1.png" alt="Shape">
                             <i class='bx bx-happy'></i>
                         </div>
                         <p>Go & Enjoy</p>
@@ -269,7 +269,7 @@
     <!-- Where -->
     {{-- <section id="destination" class="ride-where-area pt-100">
         <div class="where-shape">
-            <img src="assets/img/ride/where.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/where.png" alt="Shape">
         </div>
         <div class="container">
             <div class="ride-section-title">
@@ -401,70 +401,70 @@
                 <div class="col-6 col-sm-3 col-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/1.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/1.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/2.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/2.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/3.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/3.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/4.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/4.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/5.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/5.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/6.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/6.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2 offset-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/7.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/7.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/8.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/8.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/9.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/9.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
                 <div class="col-6 col-sm-3 col-lg-2">
                     <div class="patronize-item">
                         <a href="#">
-                            <img src="assets/img/ride/patronize/10.png" alt="Patronize">
+                            <img src="{{ asset('/') }}assets/front/img/ride/patronize/10.png" alt="Patronize">
                         </a>
                     </div>
                 </div>
@@ -476,15 +476,15 @@
     <!-- App -->
     <section class="ride-app-area pb-70">
         <div class="app-shape">
-            <img src="assets/img/ride/app2.png" alt="Shape">
-            <img src="assets/img/ride/app3.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/app2.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/app3.png" alt="Shape">
         </div>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="app-item">
                         <div class="app-img">
-                            <img src="assets/img/ride/app.png" alt="App">
+                            <img src="{{ asset('/') }}assets/front/img/ride/app.png" alt="App">
                         </div>
                     </div>
                 </div>
@@ -643,7 +643,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="faq-img">
-                        <img src="assets/img/host/faq.png" alt="Faq">
+                        <img src="{{ asset('/') }}assets/front/img/host/faq.png" alt="Faq">
                     </div>
                 </div>
             </div>
@@ -666,46 +666,46 @@
                     <div class="ride-user-slider owl-theme owl-carousel">
                         <div class="user-img">
                             <div class="user-shape">
-                                <img src="assets/img/ride/user2.png" alt="Shape">
-                                <img src="assets/img/ride/user3.png" alt="Shape">
-                                <img src="assets/img/ride/user4.png" alt="Shape">
-                                <img src="assets/img/ride/user5.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user2.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user3.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user4.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user5.png" alt="Shape">
                             </div>
                             <div class="user-main">
-                                <img src="assets/img/ride/user-man1.jpg" alt="User">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user-man1.jpg" alt="User">
                             </div>
                         </div>
                         <div class="user-img">
                             <div class="user-shape">
-                                <img src="assets/img/ride/user2.png" alt="Shape">
-                                <img src="assets/img/ride/user3.png" alt="Shape">
-                                <img src="assets/img/ride/user4.png" alt="Shape">
-                                <img src="assets/img/ride/user5.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user2.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user3.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user4.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user5.png" alt="Shape">
                             </div>
                             <div class="user-main">
-                                <img src="assets/img/ride/user-man2.jpg" alt="User">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user-man2.jpg" alt="User">
                             </div>
                         </div>
                         <div class="user-img">
                             <div class="user-shape">
-                                <img src="assets/img/ride/user2.png" alt="Shape">
-                                <img src="assets/img/ride/user3.png" alt="Shape">
-                                <img src="assets/img/ride/user4.png" alt="Shape">
-                                <img src="assets/img/ride/user5.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user2.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user3.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user4.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user5.png" alt="Shape">
                             </div>
                             <div class="user-main">
-                                <img src="assets/img/ride/user-man1.jpg" alt="User">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user-man1.jpg" alt="User">
                             </div>
                         </div>
                         <div class="user-img">
                             <div class="user-shape">
-                                <img src="assets/img/ride/user2.png" alt="Shape">
-                                <img src="assets/img/ride/user3.png" alt="Shape">
-                                <img src="assets/img/ride/user4.png" alt="Shape">
-                                <img src="assets/img/ride/user5.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user2.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user3.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user4.png" alt="Shape">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user5.png" alt="Shape">
                             </div>
                             <div class="user-main">
-                                <img src="assets/img/ride/user-man2.jpg" alt="User">
+                                <img src="{{ asset('/') }}assets/front/img/ride/user-man2.jpg" alt="User">
                             </div>
                         </div>
                     </div>
@@ -736,7 +736,7 @@
                 <div class="col-lg-6">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="assets/img/ride/blog1.jpg" alt="Blog">
+                            <img src="{{ asset('/') }}assets/front/img/ride/blog1.jpg" alt="Blog">
                         </div>
                         <div class="blog-inner">
                             <div class="blog-top">
@@ -749,7 +749,7 @@
                             <div class="blog-bottom">
                                 <ul>
                                     <li>
-                                        <img src="assets/img/host/blog.png" alt="Blog">
+                                        <img src="{{ asset('/') }}assets/front/img/host/blog.png" alt="Blog">
                                     </li>
                                     <li>
                                         <a href="#">Zain jonson,</a>
@@ -765,7 +765,7 @@
                 <div class="col-lg-6">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="assets/img/ride/blog2.jpg" alt="Blog">
+                            <img src="{{ asset('/') }}assets/front/img/ride/blog2.jpg" alt="Blog">
                         </div>
                         <div class="blog-inner">
                             <div class="blog-top">
@@ -778,7 +778,7 @@
                             <div class="blog-bottom">
                                 <ul>
                                     <li>
-                                        <img src="assets/img/host/blog.png" alt="Blog">
+                                        <img src="{{ asset('/') }}assets/front/img/host/blog.png" alt="Blog">
                                     </li>
                                     <li>
                                         <a href="#">Boris ward,</a>
@@ -806,7 +806,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="register-item">
-                        <img src="assets/img/ride/register1.png" alt="Register">
+                        <img src="{{ asset('/') }}assets/front/img/ride/register1.png" alt="Register">
                         <h3>Want To Be Driver?</h3>
                         <p>Register as driver dolor sit ametconsectetur adipiscing eiusmod tempor incididunt</p>
                         <a href="#">15 Days Free <i class='bx bx-right-arrow-alt'></i></a>
@@ -814,7 +814,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="register-item register-two">
-                        <img src="assets/img/ride/register2.png" alt="Register">
+                        <img src="{{ asset('/') }}assets/front/img/ride/register2.png" alt="Register">
                         <h3>Want To Be Rider?</h3>
                         <p>Register as rider dolor sit ametconsectetur adipiscing eiusmod tempor incididunt</p>
                         <a href="#">15 Days Free <i class='bx bx-right-arrow-alt'></i></a>
@@ -828,8 +828,8 @@
     <!-- Subscribe -->
     {{-- <section class="ride-subscribe-area">
         <div class="subscribe-shape">
-            <img src="assets/img/ride/subscribe1.png" alt="Shape">
-            <img src="assets/img/ride/subscribe2.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/subscribe1.png" alt="Shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/subscribe2.png" alt="Shape">
         </div>
         <div class="container">
             <div class="subscribe-item">
