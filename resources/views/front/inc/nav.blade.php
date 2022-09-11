@@ -5,7 +5,7 @@
         </li>
 
         <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
+            <a href="#about" class="nav-link">About</a>
         </li>
 
 
@@ -18,23 +18,27 @@
 
             <ul class="dropdown-menu">
                 <li class="nav-item">
-                    <a href="blog-grid.html" class="nav-link">Blog Grid</a>
+                    <a href="#blog" class="nav-link">Blog 1</a>
                 </li>
-                <li class="nav-item">
-                    <a href="blog-details.html" class="nav-link">Blog Details</a>
-                </li>
+
             </ul>
         </li>
 
         <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </li>
     </ul>
 
     <!-- Start Other Option -->
     <div class="others-option app">
         <div class="host-nav-wrap">
-            <div class="language" id="google_translate_element">
+            <div class="language">
+
+                <select name="" id="">
+                    <option value="">English</option>
+                    <option value="">Bengali</option>
+                    <option value="">Arabic</option>
+                </select>
 
             </div>
             <div class="purchase-btn">

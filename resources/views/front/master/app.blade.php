@@ -31,8 +31,9 @@
         <link rel="stylesheet" href="{{ asset('/') }}assets/front/css/style.css">
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="{{ asset('/') }}assets/front/css/responsive.css">
+        <link rel="stylesheet" href="{{ asset('/') }}assets/front/cs/google-translate.css">
 
-        <title>Taro | Multi-Purpose Website Templates</title>
+        <title>Tripshiptask</title>
 
         <link rel="icon" type="image/png" href="{{ asset('/') }}assets/front/img/ride/favicon.png">
 
@@ -82,114 +83,9 @@
 
         <!-- Custom JS -->
         <script src="{{ asset('/') }}assets/front/js/custom.js"></script>
-        <style>
-            #google_translate_element {
-                position: absolute;
-                bottom: calc(53px + 16px);
-                right: 16px !important;
-                // z-index: 99999;
-            }
 
-            .goog-te-gadget {
-                font-family: Roboto, 'Open Sans', sans-serif !important;
-                text-transform: uppercase;
-            }
-
-            .goog-te-gadget-simple {
-                background-color: rgba(255, 255, 255, 0.20) !important;
-                border: 1px solid rgba(255, 255, 255, 0.50) !important;
-                padding: 8px !important;
-                border-radius: 4px !important;
-                font-size: 1rem !important;
-                line-height: 2rem !important;
-                display: inline-block;
-                cursor: pointer;
-                zoom: 1;
-            }
-
-            .goog-te-menu2 {
-                max-width: 100%;
-            }
-
-            .goog-te-menu-value {
-                color: #fff !important;
-
-                &:before {
-                    font-family: 'Material Icons';
-                    content: "\E927";
-                    margin-right: 16px;
-                    font-size: 2rem;
-                    vertical-align: -10px;
-                    // width:32px!important;
-                }
-            }
-
-            .goog-te-menu-value span:nth-child(5) {
-                display: none;
-            }
-
-            .goog-te-menu-value span:nth-child(3) {
-                border: none !important;
-                font-family: 'Material Icons';
-
-                &:after {
-                    font-family: 'Material Icons';
-                    content: "\E5C5";
-                    font-size: 1.5rem;
-                    vertical-align: -6px;
-                }
-            }
-
-            .goog-te-gadget-icon {
-                background-image: url(https://placehold.it/32) !important;
-                background-position: 0px 0px;
-                height: 32px !important;
-                width: 32px !important;
-                margin-right: 8px !important;
-                //     OR
-                display: none;
-            }
-
-            // ============ HIDE TOP BAR ============
-            .goog-te-banner-frame.skiptranslate {
-                display: none !important;
-            }
-
-            body {
-                top: 0px !important;
-            }
-
-            /* ================================== *\
-    Mediaqueries
-\* ================================== */
-            @media (max-width: 667px) {
-                #google_translate_element {
-                    bottom: calc(100% - 50% - 53px);
-                    left: 16px !important;
-                    width: 100% !important;
-
-                    goog-te-gadget {
-                        width: 100% !important;
-                    }
-
-                    .skiptranslate {
-                        width: 100% !important;
-                    }
-
-                    .goog-te-gadget-simple {
-                        width: calc(100% - 32px) !important;
-                        text-align: center;
-                    }
-                }
-            }
-        </style>
-
-        <script type="text/javascript">
-            function googleTranslateElementInit() {
-                new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,bn,zh-CN,zh-TW,fi,ht,ko,ru,es,ur', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-        }
-        </script>
-        <script src="{{ asset('/') }}assets/front/js/lang.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        {{-- <script src="{{ asset('/') }}assets/front/js/lang.js"></script> --}}
 
 
     </body>

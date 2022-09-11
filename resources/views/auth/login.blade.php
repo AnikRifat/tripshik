@@ -45,7 +45,7 @@
                     </div> --}}
 
                     <div class="col-lg-6 col-sm-6">
-                        <a class="forget" href="recover-password.html">{{ __('Forgot my password?') }}</a>
+                        <a class="forget" href="#">{{ __('Forgot my password?') }}</a>
                     </div>
 
                     <div class="col-12">
@@ -57,7 +57,7 @@
                     <div class="col-12">
                         <p class="account-desc">
                             Not a member?
-                            <a href="sign-in.html">{{ __('Register') }}</a>
+                            <a href="{{ route('register') }}">{{ __('Register') }}</a>
                         </p>
                     </div>
                 </div>

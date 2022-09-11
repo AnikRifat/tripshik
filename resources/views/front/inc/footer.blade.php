@@ -81,23 +81,20 @@
                         <ul>
                             <li>
                                 <i class='bx bx-phone-call'></i>
-                                <a href="tel:+4498886660000">
-                                    +449 888 666 0000
+                                <a href="#">
+                                    +000 000 000 0000
                                 </a>
                             </li>
                             <li>
-                                <a href="tel:+2467596535986">
-                                    <i class='bx bx-phone-call'></i>
-                                    +246 759 653 5986
+                                <a href="#">
+                                    <i class='bx bx-envelope'></i>
+                                    support@tripshiptask.com
                                 </a>
                             </li>
-                            <li>
-                                <i class='bx bx-message-detail'></i>
-                                <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#620a070e0e0d221607100d0a0d11164c010d0f"><span class="__cf_email__" data-cfemail="056d6069696a457160776a776c61602b666a68">[email&#160;protected]</span></a>
-                            </li>
+
                             <li>
                                 <i class='bx bx-current-location'></i>
-                                <span>855 road, broklyn street new york 600</span>
+                                <span> new york 600</span>
                             </li>
                         </ul>
                     </div>
