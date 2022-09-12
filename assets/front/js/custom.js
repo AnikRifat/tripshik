@@ -1,8 +1,8 @@
 jQuery(function ($) {
     'use strict';
-    
+
     // Mean Menu JS
-	jQuery('.mean-menu').meanmenu({ 
+	jQuery('.mean-menu').meanmenu({
 		meanScreenWidth: "991"
 	});
 
@@ -13,8 +13,8 @@ jQuery(function ($) {
         } else {
             $('.navbar-area').removeClass('is-sticky');
         }
-    });			
- 
+    });
+
     $('.navbar-nav .nav-item .nav-link').on('click', function(e){
         var anchor = $(this);
         $('html, body').stop().animate({
@@ -22,12 +22,12 @@ jQuery(function ($) {
         }, 1500);
         e.preventDefault();
     });
-   
+
     $(document).on('click','.navbar-collapse.active',function(e) {
         if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
             $(this).collapse('hide');
         }
-    });	
+    });
 
     $('.navbar .navbar-nav li a').on('click', function(){
 		$('.navbar-collapse').removeClass('active');
@@ -37,7 +37,7 @@ jQuery(function ($) {
     $(".navbar-toggler").on('click',  function() {
         $('.collapse.navbar-collapse').toggleClass('active');
     });
-    
+
     // Footer and Copyright Click Animate JS
     $('div .default-link-animate ul li a').on('click', function(e){
         var anchor = $(this);
@@ -113,7 +113,7 @@ jQuery(function ($) {
             }
         }
 	});
-    
+
     // Sidebar Modal
     $ (document).ready (function () {
         $ (".modal a").not (".dropdown-toggle").on ("click", function () {
@@ -123,7 +123,7 @@ jQuery(function ($) {
 
     // Nice Select JS
     $('select').niceSelect();
-    
+
     // People Slider JS
     $('.host-people-slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
         if (!e.namespace)  {
@@ -259,10 +259,65 @@ jQuery(function ($) {
                 items:1,
             },
             600:{
-                items:2,
+                items:1,
             },
             1000:{
-                items:3,
+                items:1,
+            }
+        }
+    });
+
+            // update Slider JS
+	$('.update-item-slider').owlCarousel({
+        loop:true,
+		margin: 20,
+        // center:true,
+        stagePadding: 100,
+        // screenLeft:true,
+        nav: false,
+		dots: true,
+		smartSpeed: 1000,
+		autoplay:false,
+		autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                margin: 0,
+                stagePadding: 0,
+                items:1,
+            },
+            600:{
+                margin: 0,
+        stagePadding: 0,
+                items:1,
+            },
+            1000:{
+                items:1,
+            }
+        }
+    });
+        // banner Slider JS
+	$('.banner-team-slider').owlCarousel({
+        loop:true,
+		margin: 10,
+        // center:true,
+        stagePadding: 100,
+        // screenLeft:true,
+        nav: false,
+		dots: true,
+		smartSpeed: 1000,
+		autoplay:false,
+		autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:1,
+            },
+            1000:{
+                items:1,
             }
         }
     });
@@ -320,7 +375,7 @@ jQuery(function ($) {
         autoplay:true,
 		autoplaySpeed:3000,
         pauseOnHover:true,
-        
+
         responsive: [
           {
             breakpoint: 768,
@@ -458,13 +513,13 @@ jQuery(function ($) {
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-    
+
         let countDown = new Date('Jan 01, 2022 00:00:00').getTime(),
         x = setInterval(function() {
-    
+
         let now = new Date().getTime(),
             distance = countDown - now;
-    
+
         document.getElementById('days').innerText = Math.floor(distance / (day)),
             document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
             document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
@@ -542,7 +597,7 @@ jQuery(function ($) {
     // Tabs JS
 	$('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
 	$('.tab ul.tabs li').on('click', function (g) {
-		var tab = $(this).closest('.tab'), 
+		var tab = $(this).closest('.tab'),
 		index = $(this).closest('li').index();
 		tab.find('ul.tabs > li').removeClass('current');
 		$(this).closest('li').addClass('current');
@@ -550,7 +605,7 @@ jQuery(function ($) {
 		tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').slideDown();
 		g.preventDefault();
     });
-    
+
     // Input Plus & Minus Number JS
 	$('.input-counter').each(function() {
 		var spinner = jQuery(this),
@@ -559,7 +614,7 @@ jQuery(function ($) {
 		btnDown = spinner.find('.minus-btn'),
 		min = input.attr('min'),
 		max = input.attr('max');
-		
+
 		btnUp.on('click', function() {
 			var oldValue = parseFloat(input.val());
 			if (oldValue >= max) {
@@ -622,12 +677,12 @@ jQuery(function ($) {
 		}
 		$("#validator-newsletter").removeClass().addClass(msgClasses).text(msg);
 	}
-	
+
 	// AJAX MailChimp
 	$(".newsletter-form").ajaxChimp({
 		url: "https://envytheme.us20.list-manage.com/subscribe/post?u=60e1ffe2e8a68ce1204cd39a5&amp;id=42d6d188d9", // Your url MailChimp
 		callback: callbackFunction
     });
-    
-    
+
+
 }(jQuery));

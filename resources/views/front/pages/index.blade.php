@@ -16,258 +16,265 @@
                         <i class='bx bx-play'></i>
                     </a>
                 </div>
-                <h1>Personal and Friendly Ride <span>Sharing in City</span></h1>
+                <h1>
+                    connect with others
+                    <br>
+                    to give or get rides
+                    send or receive any goods
+                    <br>
+                    give or get tasks
+                    & make money while you are at it.
+                </h1>
+
+                {{-- <h1>Personal and Friendly Ride <span>Sharing in City</span></h1> --}}
 
             </div>
         </div>
     </div>
     <!-- End Banner -->
-
-    <!-- Feature -->
-    <div class="ride-feature-area">
-        <div class="feature-shape">
-            <img src="{{ asset('/') }}assets/front/img/ride/feature1.png" alt="Shape">
-            <img src="{{ asset('/') }}assets/front/img/ride/feature2.png" alt="Shape">
-        </div>
+    <section class="safety-section pt-100 pb-70">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6 col-lg-2">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class='bx bx-money'></i>
-                        </div>
-                        <span>No advanced Paymnet</span>
+                <div class="col-md-2"><img
+                      src="{{ asset('/')}}assets/front/img/info/Avoid_Off-App_Transaction-removebg-preview.png " alt="">
+                </div>
+                <div class="col-md-2"><img
+                      src="{{ asset('/')}}assets/front/img/info/Cancellation_Fee-removebg-preview.png " alt=""></div>
+                <div class="col-md-2"><img
+                      src="{{ asset('/')}}assets/front/img/info/Check_Shipping_Content-removebg-preview.png " alt="">
+                </div>
+                <div class="col-md-2"><img
+                      src="{{ asset('/')}}assets/front/img/info/Confirm_and_Go-removebg-preview.png " alt=""></div>
+                <div class="col-md-2"><img
+                      src="{{ asset('/')}}assets/front/img/info/Digital_Payment-removebg-preview.png " alt=""></div>
+                <div class="col-md-2"><img src="{{ asset('/')}}assets/front/img/info/Feedback-removebg-preview.png "
+                      alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature -->
+    {{-- <div class="ride-feature-area">
+        <div class="feature-shape">
+            <img src="{{ asset('/') }}assets/front/img/ride/feature1.png" alt="Shape">
+    <img src="{{ asset('/') }}assets/front/img/ride/feature2.png" alt="Shape">
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-lg-2">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class='bx bx-money'></i>
+                </div>
+                <span>No advanced Paymnet</span>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class='bx bx-street-view'></i>
+                </div>
+                <span>Hassle free riding service</span>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class='bx bx-transfer'></i>
+                </div>
+                <span>Credit card money transfer</span>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class='bx bx-donate-heart'></i>
+                </div>
+                <span>No advanced Paymnet</span>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class='bx bxs-user'></i>
+                </div>
+                <span>No doubt about driver</span>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class='bx bx-cycling'></i>
+                </div>
+                <span>Man & woman rider available</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div> --}}
+<!-- End Feature -->
+
+<!-- Service -->
+<section id="service" class="ride-service-area">
+    <div class="service-shape">
+        <img src="{{ asset('/') }}assets/front/img/ride/service5.png" alt="Shape">
+        <img src="{{ asset('/') }}assets/front/img/ride/service6.png" alt="Shape">
+        <img src="{{ asset('/') }}assets/front/img/ride/service7.png" alt="Shape">
+        <img src="{{ asset('/') }}assets/front/img/ride/service8.png" alt="Shape">
+    </div>
+    <div class="container">
+        <div class="ride-section-title">
+            <span class="sub-title">Modules</span>
+            {{-- <h2>Ttrip: <br>
+                    to . <br>
+                    <span>Provided</span>
+                </h2> --}}
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <div class="service-item">
+                    <div class="service-top">
+                        <h1>Trip</h1>
+                        <h2>Give a Ride or Get one</h2>
+                        <h2>Ride Together - Save Time & Money</h2>
+
+                        <p>Going somewhere? Why not give a ride to someone? You need to go somewhere? Why not
+                            catch a ride from someone? You can choose who you want to give ride to or who you
+                            can ride with.
+                            Everybody benefits. </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="{{ asset('/') }}assets/front/img/ride/service2.png" alt="Service">
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-2">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class='bx bx-street-view'></i>
-                        </div>
-                        <span>Hassle free riding service</span>
+            </div>
+        </div>
+        <div class="row service-wrap-two align-items-center">
+            <div class="col-lg-7">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="{{ asset('/') }}assets/front/img/ride/service3.png" alt="Service">
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-2">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class='bx bx-transfer'></i>
-                        </div>
-                        <span>Credit card money transfer</span>
+            </div>
+            <div class="col-lg-5">
+                <div class="service-item">
+                    <div class="service-top">
+                        <h1>Ship</h1>
+                        <h2>Send a Package or Carry a Package.</h2>
+                        <h2>Save Time & Avoid Hassle.</h2>
+
+                        <p>Need to send something to someone? Give it to a fellow member and bypass the hassle
+                            of courier services.
+                            If you are travelling light, why not carry a package of a fellow member of
+                            TripShipTask?
+                            Save Time and Money. </p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-2">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class='bx bx-donate-heart'></i>
-                        </div>
-                        <span>No advanced Paymnet</span>
+            </div>
+        </div>
+
+        <div class="row service-wrap-three align-items-center">
+            <div class="col-lg-5">
+                <div class="service-item">
+                    <div class="service-top">
+                        <h1>Task</h1>
+                        <h2>Give a Task or Get a Task.</h2>
+                        <h2>Utilize time & Reap Benefits.</h2>
+
+                        <p>You don't have the time? Need to get something done? Why not delegate the task to
+                            someone?
+                            You can help someone with your skill and you are availabe? Why not pick up a task?
+                            Use your time to make money.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-2">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class='bx bxs-user'></i>
-                        </div>
-                        <span>No doubt about driver</span>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-2">
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class='bx bx-cycling'></i>
-                        </div>
-                        <span>Man & woman rider available</span>
+            </div>
+            <div class="col-lg-7">
+                <div class="service-item">
+                    <div class="service-img">
+                        <img src="{{ asset('/') }}assets/front/img/ride/service4.png" alt="Service">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Feature -->
+</section>
+<!-- End Service -->
 
-    <!-- Service -->
-    <section id="service" class="ride-service-area">
-        <div class="service-shape">
-            <img src="{{ asset('/') }}assets/front/img/ride/service5.png" alt="Shape">
-            <img src="{{ asset('/') }}assets/front/img/ride/service6.png" alt="Shape">
-            <img src="{{ asset('/') }}assets/front/img/ride/service7.png" alt="Shape">
-            <img src="{{ asset('/') }}assets/front/img/ride/service8.png" alt="Shape">
-        </div>
-        <div class="container">
-            <div class="ride-section-title">
-                <span class="sub-title">know the fact</span>
-                <h2>The Services Those We are <span>Provided</span></h2>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="service-item">
-                        <div class="service-top">
-                            <span>01</span>
-                            <h2>Delivery Services</h2>
-                            <p>Deatures ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="service-bottom">
-                            <i class='bx bxs-truck'></i>
-                            <p>Delivery ipsum dolor sit ametconsectetur adipiscing <a href="#">Let It Know</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('/') }}assets/front/img/ride/service2.png" alt="Service">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row service-wrap-two align-items-center">
-                <div class="col-lg-7">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('/') }}assets/front/img/ride/service3.png" alt="Service">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="service-item">
-                        <div class="service-top">
-                            <span>02</span>
-                            <h2>Bike Share Service</h2>
-                            <p>Sharing ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="service-bottom">
-                            <i class='bx bxs-truck'></i>
-                            <p>Bike ipsum dolor sit ametconsectetur adipiscing <a href="#">Let It Know</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Download -->
+<section class="ride-download-area">
+    <div class="download-shape">
+        <img src="{{ asset('/') }}assets/front/img/ride/download6.png" alt="Shape">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="download-item download-content">
+                    <div class="ride-section-title">
+                        <span class="sub-title">Mobile app</span>
+                        <h2>
+                            Download
+                        </h2>
+                        <h3>TripShipTask Mobile App.</h3>
+                        <h4>Use TripShipTask platform to ease your life.
+                            <br> Refer Someone & keep
+                            getting Profit
+                            Share
+                        </h4>
 
-            <div class="row service-wrap-three align-items-center">
-                <div class="col-lg-5">
-                    <div class="service-item">
-                        <div class="service-top">
-                            <span>03</span>
-                            <h2>Home Food Delivery</h2>
-                            <p>Sharing ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="service-bottom">
-                            <i class='bx bxs-truck'></i>
-                            <p>Bike ipsum dolor sit ametconsectetur adipiscing <a href="#">Let It Know</a></p>
-                        </div>
+
+
+
                     </div>
+
+
+                    <p></p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="{{ asset('/') }}assets/front/img/ride/download1.png" alt="Download">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="{{ asset('/') }}assets/front/img/ride/download2.png" alt="Download">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-7">
-                    <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('/') }}assets/front/img/ride/service4.png" alt="Service">
-                        </div>
-                    </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="download-item download-img">
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End Service -->
+    </div>
+</section>
+<!-- End Download -->
 
-    <!-- Download -->
-    <section class="ride-download-area">
-        <div class="download-shape">
-            <img src="{{ asset('/') }}assets/front/img/ride/download6.png" alt="Shape">
+<!-- Process -->
+<section id="process" class="ride-process-area pt-100 pb-70">
+    <div class="container">
+        <div class="ride-section-title">
+            <span class="sub-title">Be Safe</span>
+            <h2>Safety First</h2>
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="download-item download-content">
-                        <div class="ride-section-title">
-                            <span class="sub-title">download app</span>
-                            <h2>Get Started With Tripshiptask App No Doubt <span>About This</span></h2>
-                        </div>
-                        <p>We’ll send you a text with a link to download the app.</p>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="{{ asset('/') }}assets/front/img/ride/download1.png" alt="Download">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="{{ asset('/') }}assets/front/img/ride/download2.png" alt="Download">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="download-item download-img">
-                        <img src="{{ asset('/') }}assets/front/img/ride/download3.png" alt="Download">
-                        <img src="{{ asset('/') }}assets/front/img/ride/download4.png" alt="Download">
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <img src="{{ asset('/') }}assets/front/img/ride/safety.png" alt="" class="w-100">
             </div>
         </div>
-    </section>
-    <!-- End Download -->
 
-    <!-- Process -->
-    <section id="process" class="ride-process-area pt-100 pb-70">
-        <div class="container">
-            <div class="ride-section-title">
-                <span class="sub-title">what is process</span>
-                <h2>Our Working <span>Process</span></h2>
-            </div>
-            <div class="process-img">
-                <img src="{{ asset('/') }}assets/front/img/ride/process2.png" alt="Process">
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="process-item">
-                        <span>01</span>
-                        <div class="process-icon">
-                            <img src="{{ asset('/') }}assets/front/img/ride/process1.png" alt="Shape">
-                            <i class='bx bx-map-alt'></i>
-                        </div>
-                        <p>Where?</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="process-item process-two">
-                        <span>02</span>
-                        <div class="process-icon">
-                            <img src="{{ asset('/') }}assets/front/img/ride/process1.png" alt="Shape">
-                            <i class='bx bxs-car'></i>
-                        </div>
-                        <p>Find Driver</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="process-item process-three">
-                        <span>03</span>
-                        <div class="process-icon">
-                            <img src="{{ asset('/') }}assets/front/img/ride/process1.png" alt="Shape">
-                            <i class='bx bx-location-plus'></i>
-                        </div>
-                        <p>Estimate</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="process-item process-four">
-                        <span>04</span>
-                        <div class="process-icon">
-                            <img src="{{ asset('/') }}assets/front/img/ride/process1.png" alt="Shape">
-                            <i class='bx bx-happy'></i>
-                        </div>
-                        <p>Go & Enjoy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Process -->
+    </div>
+</section>
+<!-- End Process -->
 
-    <!-- Where -->
-    {{-- <section id="destination" class="ride-where-area pt-100">
+<!-- Where -->
+{{-- <section id="destination" class="ride-where-area pt-100">
         <div class="where-shape">
             <img src="{{ asset('/') }}assets/front/img/ride/where.png" alt="Shape">
 </div>
@@ -468,40 +475,36 @@
 </div>
 </section> --}}
 <!-- End Patronize -->
-
-<!-- App -->
-<section class="ride-app-area pb-70">
-    <div class="app-shape">
-        <img src="{{ asset('/') }}assets/front/img/ride/app2.png" alt="Shape">
-        <img src="{{ asset('/') }}assets/front/img/ride/app3.png" alt="Shape">
-    </div>
+<!-- Team -->
+<section class="banner-team-area ptb-100">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="app-item">
-                    <div class="app-img">
-                        <img src="{{ asset('/') }}assets/front/img/ride/app.png" alt="App">
-                    </div>
-                </div>
+
+        <div class="banner-team-slider owl-theme owl-carousel">
+            <div class="banner-item">
+                <img src="{{ asset('/') }}assets/front/img/banner/item1.jpg" class="banner-item" alt="Team">
             </div>
-            <div class="col-lg-6">
-                <div class="app-item">
-                    <div class="ride-section-title">
-                        <span class="sub-title">what's process</span>
-                        <h2>Let You Know How Tripshiptask App Does Work For <span>The Users</span></h2>
-                    </div>
-                    <p>The procudure ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua ametconsectetur</p>
-                    <a href="#">LET IT KNOW <i class='bx bx-right-arrow-alt'></i></a>
-                </div>
+            <div class="banner-item">
+                <img src="{{ asset('/') }}assets/front/img/banner/item2.jpg" class="banner-item" alt="Team">
+            </div>
+            <div class="banner-item">
+                <img src="{{ asset('/') }}assets/front/img/banner/item3.jpg" class="banner-item" alt="Team">
+            </div>
+            <div class="banner-item">
+                <img src="{{ asset('/') }}assets/front/img/banner/item4.jpg" class="banner-item" alt="Team">
+            </div>
+            <div class="banner-item">
+                <img src="{{ asset('/') }}assets/front/img/banner/item5.jpg" class="banner-item" alt="Team">
+            </div>
+            <div class="banner-item">
+                <img src="{{ asset('/') }}assets/front/img/banner/item6.jpg" class="banner-item" alt="Team">
             </div>
         </div>
     </div>
 </section>
-<!-- End App -->
+<!-- End Team -->
 
 <!-- Pricing -->
-<section id="pricing" class="ride-pricing-area pb-70">
+{{-- <section id="pricing" class="ride-pricing-area pb-70">
     <div class="container">
         <div class="ride-section-title">
             <span class="sub-title">pricing plan</span>
@@ -600,9 +603,110 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- End Pricing -->
+<!-- Review -->
+<div class="app-review-area ptb-100">
+    <div class="container">
+        <div class="app-head">
+            <i class='bx bxs-quote-alt-left'></i>
+        </div>
+        <div class="app-review-slider">
+            <div class="main">
+                <div class="slider-for">
+                    <div>
+                        <p>Pioners ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                            viverra</p>
+                    </div>
+                    <div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley</p>
+                    </div>
+                    <div>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters</p>
+                    </div>
+                    <div>
+                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                            model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                            infancy</p>
+                    </div>
+                    <div>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or randomised words which don't look
+                            even slightly believable</p>
+                    </div>
+                    <div>
+                        <p>f you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
+                            tend</p>
+                    </div>
+                </div>
 
+                <div class="slider-nav">
+                    <div>
+                        <div class="review-img">
+                            <img src="{{ asset('/') }}assets/front/img/app/client/1.png" alt="Feedback">
+                        </div>
+                        <div class="review-details">
+                            <h3>Adision Smith</h3>
+                            <span>Director at Ds software Ltd.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="review-img">
+                            <img src="{{ asset('/') }}assets/front/img/app/client/2.png" alt="Feedback">
+                        </div>
+                        <div class="review-details">
+                            <h3>John Cena</h3>
+                            <span>Director at Evo software Ltd.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="review-img">
+                            <img src="{{ asset('/') }}assets/front/img/app/client/3.png" alt="Feedback">
+                        </div>
+                        <div class="review-details">
+                            <h3>Mac Smith</h3>
+                            <span>Director at Hibo software Ltd.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="review-img">
+                            <img src="{{ asset('/') }}assets/front/img/app/client/4.png" alt="Feedback">
+                        </div>
+                        <div class="review-details">
+                            <h3>Shane Watson</h3>
+                            <span>Director at Max software Ltd.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="review-img">
+                            <img src="{{ asset('/') }}assets/front/img/app/client/1.png" alt="Feedback">
+                        </div>
+                        <div class="review-details">
+                            <h3>Adision Smith</h3>
+                            <span>Director at Pacia software Ltd.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="review-img">
+                            <img src="{{ asset('/') }}assets/front/img/app/client/2.png" alt="Feedback">
+                        </div>
+                        <div class="review-details">
+                            <h3>John Cena</h3>
+                            <span>Director at Unique software Ltd.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Review -->
 <!-- FAQ -->
 <section class="ride-faq-area pt-100 pb-70">
     <div class="container">
@@ -647,176 +751,64 @@
 </section>
 <!-- End FAQ -->
 
-<!-- Users -->
-<section class="ride-user-area pb-100">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="user-item">
-                    <h2>The Precious Word From <span>Users</span></h2>
-                    <p>Very nice dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="ride-user-slider owl-theme owl-carousel">
-                    <div class="user-img">
-                        <div class="user-shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user2.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user3.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user4.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user5.png" alt="Shape">
-                        </div>
-                        <div class="user-main">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user-man1.jpg" alt="User">
-                        </div>
-                    </div>
-                    <div class="user-img">
-                        <div class="user-shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user2.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user3.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user4.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user5.png" alt="Shape">
-                        </div>
-                        <div class="user-main">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user-man2.jpg" alt="User">
-                        </div>
-                    </div>
-                    <div class="user-img">
-                        <div class="user-shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user2.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user3.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user4.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user5.png" alt="Shape">
-                        </div>
-                        <div class="user-main">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user-man1.jpg" alt="User">
-                        </div>
-                    </div>
-                    <div class="user-img">
-                        <div class="user-shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user2.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user3.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user4.png" alt="Shape">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user5.png" alt="Shape">
-                        </div>
-                        <div class="user-main">
-                            <img src="{{ asset('/') }}assets/front/img/ride/user-man2.jpg" alt="User">
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-counter"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Users -->
+
 
 <!-- Blog -->
-<section class="ride-blog-area pt-100 pb-70">
+<section class="ride-blog-area bg-light pt-100 pb-70">
     <div class="container">
         <div class="row">
             <div class="col-sm-7 col-lg-7">
                 <div class="ride-section-title">
-                    <span class="sub-title">from the news</span>
-                    <h2>Latest News <span>Update</span></h2>
+                    {{-- <span class="sub-title">from the news</span> --}}
+                    <h2>Updates/Announcements</h2>
                 </div>
             </div>
-            <div class="col-sm-5 col-lg-5">
+            {{-- <div class="col-sm-5 col-lg-5">
                 <div class="blog-btn">
                     <a href="#">View all news <i class='bx bx-right-arrow-alt'></i></a>
                 </div>
+            </div> --}}
+        </div>
+        <div class="update-item-slider owl-theme owl-carousel">
+            <div class="blog-item">
+                <div class="blog-img">
+                    <img src="{{ asset('/') }}assets/front/img/ride/blog1.jpg" alt="Blog">
+                </div>
+                <div class="blog-inner">
+                    <div class="blog-top">
+                        <span>31 january 2020</span>
+                        <h3>
+                            <a href="#">Long journey for family with Tripshiptask riding </a>
+                        </h3>
+                    </div>
+                    <div class="blog-bottom">
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic typesetting, remaining
+                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                            Aldus PageMaker including versions of Lorem Ipsum</p>
+                    </div>
+                </div>
             </div>
+
+
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="{{ asset('/') }}assets/front/img/ride/blog1.jpg" alt="Blog">
-                    </div>
-                    <div class="blog-inner">
-                        <div class="blog-top">
-                            <span>31 january 2020</span>
-                            <p>Riding . 5 Min read</p>
-                            <h3>
-                                <a href="#">Long journey for family with Tripshiptask riding </a>
-                            </h3>
-                        </div>
-                        <div class="blog-bottom">
-                            <ul>
-                                <li>
-                                    <img src="{{ asset('/') }}assets/front/img/host/blog.png" alt="Blog">
-                                </li>
-                                <li>
-                                    <a href="#">Zain jonson,</a>
-                                </li>
-                                <li>
-                                    <span>Author</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+
             </div>
-            <div class="col-lg-6">
-                <div class="blog-item">
-                    <div class="blog-img">
-                        <img src="{{ asset('/') }}assets/front/img/ride/blog2.jpg" alt="Blog">
-                    </div>
-                    <div class="blog-inner">
-                        <div class="blog-top">
-                            <span>17 june 2020</span>
-                            <p>Riding . 9 Min read</p>
-                            <h3>
-                                <a href="#">Long journey for friends with Tripshiptask riding </a>
-                            </h3>
-                        </div>
-                        <div class="blog-bottom">
-                            <ul>
-                                <li>
-                                    <img src="{{ asset('/') }}assets/front/img/host/blog.png" alt="Blog">
-                                </li>
-                                <li>
-                                    <a href="#">Boris ward,</a>
-                                </li>
-                                <li>
-                                    <span>Author</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 </section>
 <!-- End Blog -->
 
 <!-- Register -->
-<section class="ride-register-area pt-100 pb-70">
-    <div class="container">
-        <div class="ride-section-title">
-            <span class="sub-title">driver either rider</span>
-            <h2>Register As A Driver <span>or Rider</span></h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="register-item">
-                    <img src="{{ asset('/') }}assets/front/img/ride/register1.png" alt="Register">
-                    <h3>Want To Be Driver?</h3>
-                    <p>Register as driver dolor sit ametconsectetur adipiscing eiusmod tempor incididunt</p>
-                    <a href="#">15 Days Free <i class='bx bx-right-arrow-alt'></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="register-item register-two">
-                    <img src="{{ asset('/') }}assets/front/img/ride/register2.png" alt="Register">
-                    <h3>Want To Be Rider?</h3>
-                    <p>Register as rider dolor sit ametconsectetur adipiscing eiusmod tempor incididunt</p>
-                    <a href="#">15 Days Free <i class='bx bx-right-arrow-alt'></i></a>
-                </div>
-            </div>
-        </div>
+<section class="footer-banner-area pt-100 pb-70">
+
+    <div class="w-100">
+        <img src="{{ asset('/') }}assets/front/img/ride/banner.png" class="w-100" alt="Register">
     </div>
 </section>
 <!-- End Register -->

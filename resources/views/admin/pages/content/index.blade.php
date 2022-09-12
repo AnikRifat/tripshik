@@ -52,6 +52,10 @@
                                 <label for="name">Website Name</label>
                             </div>
                             <div class="mb-3">
+                                <label for="logo" class="form-label">Website logo</label>
+                                <input class="form-control" type="file" name="logo" id="logo">
+                            </div>
+                            <div class="mb-3">
                                 <label for="favicon" class="form-label">Website favicon</label>
                                 <input class="form-control" type="file" name="favicon" id="favicon">
                             </div>
@@ -60,24 +64,40 @@
                         </div>
                         <div class="tab-pane" id="landing" role="tabpanel">
                             <p class="mb-0">
-                                Food truck fixie locavore, accusamus mcsweeney's marfa nulla
-                                single-origin coffee squid. Exercitation +1 labore velit, blog
-                                sartorial PBR leggings next level wes anderson artisan four loko
-                                farm-to-table craft beer twee. Qui photo booth letterpress,
-                                commodo enim craft beer mlkshk aliquip jean shorts ullamco ad
-                                vinyl cillum PBR. Homo nostrud organic, assumenda labore
-                                aesthetic magna delectus.
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="yt_link" name="yt_link"
+                                  placeholder="Website...">
+                                <label for="yt_link">slider youtube link</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="slogan" name="slogan"
+                                  placeholder="Website...">
+                                <label for="slogan">slider Text</label>
+                            </div>
+                            <div class="mb-3">
+                                <label for="slider" class="form-label">Website slider</label>
+                                <input class="form-control" type="file" name="slider" id="slider">
+                            </div>
                             </p>
                         </div>
                         <div class="tab-pane" id="contacts" role="tabpanel">
                             <p class="mb-0">
-                                Etsy mixtape wayfarers, ethical wes anderson tofu before they
-                                sold out mcsweeney's organic lomo retro fanny pack lo-fi
-                                farm-to-table readymade. Messenger bag gentrify pitchfork
-                                tattooed craft beer, iphone skateboard locavore carles etsy
-                                salvia banksy hoodie helvetica. DIY synth PBR banksy irony.
-                                Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh
-                                mi whatever gluten-free carles.
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" name="email"
+                                  placeholder="Website...">
+                                <label for="email">website email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="phone" name="phone"
+                                  placeholder="Website...">
+                                <label for="phone">website phone</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="address" name="address"
+                                  placeholder="Website...">
+                                <label for="address">website address</label>
+                            </div>
+
                             </p>
                         </div>
                         <div class="tab-pane active" id="about" role="tabpanel">
