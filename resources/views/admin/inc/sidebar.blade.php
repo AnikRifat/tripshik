@@ -17,22 +17,37 @@
                 </li>
 
                 <li>
+                    <a href="{{ route('content') }}">
+                        <i data-feather="globe"></i>
+                        <span data-key="t-dashboard">Website</span>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="{{ route('content') }}">
+                        <i data-feather="globe"></i>
+                        <span data-key="t-dashboard">Website</span>
+                    </a>
+
+                </li>
+
+                <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i data-feather="grid"></i>
-                        <span data-key="t-apps">Websites</span>
+                        <span data-key="t-apps">Service</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li>
-                            <a href="{{ route('content') }}">
-                                <span data-key="t-calendar">Content</span>
+                            <a href="{{ route('service') }}">
+                                <span data-key="t-calendar">view Service</span>
+                            </a>
+                            <a href="{{ route('create.service') }}">
+                                <span data-key="t-calendar">add Service</span>
                             </a>
                         </li>
 
                     </ul>
                 </li>
-
-
-
 
             </ul>
 

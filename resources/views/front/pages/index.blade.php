@@ -7,7 +7,7 @@
     <!-- Banner -->
     <div id="home" class="ride-banner-area">
         <div class="banner-img">
-            <img src="{{ asset('/') }}assets/front/img/ride/banner-bg.png" alt="Banner">
+            <img src="{{ asset('/') }}assets/images/{{ $content->slider_image }}" alt="Banner">
         </div>
         <div class="container">
             <div class="banner-item">

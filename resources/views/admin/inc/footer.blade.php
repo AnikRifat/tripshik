@@ -46,6 +46,8 @@
 
 
 <script>
+    ClassicEditor.create(document.querySelector("#ckeditor-about")).then(function(e){e.ui.view.editable.element.style.height="200px"}).catch(function(e){console.error(e)});
+ClassicEditor.create(document.querySelector("#ckeditor-slider")).then(function(e){e.ui.view.editable.element.style.height="200px"}).catch(function(e){console.error(e)});
     function readURL(input) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
@@ -81,14 +83,23 @@
         }
 feather.replace()
 
+@if ($massage = Session::get('success'))
+Swal.fire({
+position: "top-end",
+icon: "success",
+title: "{{ $massage }}",
+showConfirmButton: !1,
+timer: 3000
+})
+Swal();
 
+@endif
 
 @if ($errors->any())
 
 @foreach ($errors->all() as $error)
 alertify.error("{{ $error }}");
 @endforeach
-
 @endif
 
 </script>

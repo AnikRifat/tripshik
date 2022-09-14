@@ -6,7 +6,7 @@
             <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
                 <a href="{{ route('index') }}" class="logo">
-                    <img src="{{ asset('/') }}assets/front/img/logo.png" alt="Logo">
+                    <img src="{{ asset('/') }}assets/images/{{ $content->logo }}" alt="Logo">
                 </a>
             </div>
 
@@ -15,7 +15,7 @@
                 <nav class="navbar navbar-expand-md">
                     <div class="container">
                         <a class="navbar-brand" href="{{ route('index') }}">
-                            <img src="{{ asset('/') }}assets/front/img/ride/logo.png" alt="Logo">
+                            <img src="{{ asset('/') }}assets/images/{{ $content->logo }}" alt="Logo">
                         </a>
 
                         @include('front.inc.nav')
