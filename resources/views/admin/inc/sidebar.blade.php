@@ -30,7 +30,13 @@
                     </a>
 
                 </li>
+                <li>
+                    <a href="{{ route('slider') }}">
+                        <i data-feather="globe"></i>
+                        <span data-key="t-dashboard">Slider</span>
+                    </a>
 
+                </li>
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
                         <i data-feather="grid"></i>
@@ -43,6 +49,23 @@
                             </a>
                             <a href="{{ route('create.service') }}">
                                 <span data-key="t-calendar">add Service</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i data-feather="grid"></i>
+                        <span data-key="t-apps">Testimonial</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li>
+                            <a href="{{ route('testimonial') }}">
+                                <span data-key="t-calendar">view Testimonial</span>
+                            </a>
+                            <a href="{{ route('create.testimonial') }}">
+                                <span data-key="t-calendar">add Testimonial</span>
                             </a>
                         </li>
 

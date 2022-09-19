@@ -17,30 +17,29 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
+                                    <th>name</th>
                                     <th>Title</th>
-                                    <th>description</th>
-                                    <th>Details</th>
+                                    <th>comment</th>
                                     <th>image</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($service_item as $item)
+                                @foreach ($testimonials as $item)
                                 <tr>
-                                    <th scope="row">1</th>
+                                    <th scope="row">{{ $item->id }}</th>
+                                    <td>{{ $item->name }}</td>
                                     <td>{{ $item->title }}</td>
-                                    <td>{{ $item->description }}</td>
-                                    <td>{{ $item->details }}</td>
-                                    <td><img src="{{ asset('/') }}assets/images/service/{{ $item->image }}" alt=""
+                                    <td>{{ $item->comment }}</td>
+                                    <td><img src="{{ asset('/') }}assets/images/testimonial/{{ $item->image }}" alt=""
                                           style="
                                         width: 5rem;
                                     "></td>
-                                    <td>{{ $item->postion }}</td>
                                     <td>
                                         <div class="d-flex justify-content-around">
-                                            <a href="{{ route('edit.service',$item->id) }}" class="btn btn-info"><i
+                                            <a href="{{ route('edit.testimonial',$item->id) }}" class="btn btn-info"><i
                                                   class="fas fa-edit"></i></a>
-                                            <form action="{{ route('destroy.service',$item->id) }}" method="POST"
+                                            <form action="{{ route('destroy.testimonial',$item->id) }}" method="POST"
                                               id="dltform{{ $item->id }}">
                                                 @csrf
                                                 @method('delete')

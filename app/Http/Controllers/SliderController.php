@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Content;
-use App\Models\Dashboard;
+use App\Models\Slider;
 use Illuminate\Http\Request;
 
-class DashboardController extends Controller
+class SliderController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,33 +14,8 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return view('admin.index');
+        //
     }
-
-
-    public function content()
-    {
-        return view('admin.pages.content.index');
-    }
-
-
-
-    public function service()
-    {
-        return view('admin.pages.service.index');
-    }
-
-
-    public function slider()
-    {
-        return view('admin.pages.slider.index');
-    }
-    public function testimonial()
-    {
-        return view('admin.pages.testimonial.index');
-    }
-
-
 
     /**
      * Show the form for creating a new resource.
@@ -61,16 +35,31 @@ class DashboardController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'image' => 'required',
+            // 'category_id' => 'required',
+        ]);
+
+        $input = $request->all();
+        if ($image = $request->file('image')) {
+            $filePath = 'assets/images/slider/';
+            $setImage = uniqid() . "_slider" . "." . $image->getClientOriginalExtension();
+            $image->move($filePath, $setImage);
+            $input['image'] = $setImage;
+        }
+        // dd($input);
+        Slider::create($input);
+
+        return redirect()->route('slider')->with('success', 'slider added successfully.');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Dashboard  $dashboard
+     * @param  \App\Models\Slider  $slider
      * @return \Illuminate\Http\Response
      */
-    public function show(Dashboard $dashboard)
+    public function show(Slider $slider)
     {
         //
     }
@@ -78,10 +67,10 @@ class DashboardController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Dashboard  $dashboard
+     * @param  \App\Models\Slider  $slider
      * @return \Illuminate\Http\Response
      */
-    public function edit(Dashboard $dashboard)
+    public function edit(Slider $slider)
     {
         //
     }
@@ -90,10 +79,10 @@ class DashboardController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Dashboard  $dashboard
+     * @param  \App\Models\Slider  $slider
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Dashboard $dashboard)
+    public function update(Request $request, Slider $slider)
     {
         //
     }
@@ -101,11 +90,12 @@ class DashboardController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Dashboard  $dashboard
+     * @param  \App\Models\Slider  $slider
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Dashboard $dashboard)
+    public function destroy(Slider $slider)
     {
-        //
+        $slider->delete();
+        return redirect()->route('slider')->with('success', 'Slider Deleted Scueesfully.');
     }
 }

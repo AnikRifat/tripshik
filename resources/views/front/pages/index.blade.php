@@ -129,78 +129,31 @@
                     <span>Provided</span>
                 </h2> --}}
         </div>
+        @foreach ($service_item as $item)
         <div class="row align-items-center">
-            <div class="col-lg-5">
+            <div class="col-lg-5 {{ $item->position }}">
                 <div class="service-item">
                     <div class="service-top">
-                        <h1>Trip</h1>
-                        <h2>Give a Ride or Get one</h2>
-                        <h2>Ride Together - Save Time & Money</h2>
+                        <h1>{{ $item->title }}</h1>
+                        <h2>{{ $item->subtitle_1 }}</h2>
+                        <h2>{{ $item->subtitle_2 }}</h2>
 
-                        <p>Going somewhere? Why not give a ride to someone? You need to go somewhere? Why not
-                            catch a ride from someone? You can choose who you want to give ride to or who you
-                            can ride with.
-                            Everybody benefits. </p>
+                        <p>{{ $item->details }}</p>
                     </div>
 
                 </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 ">
                 <div class="service-item">
                     <div class="service-img">
-                        <img src="{{ asset('/') }}assets/front/img/ride/service2.png" alt="Service">
+                        <img src="{{ asset('/') }}assets/images/service/{{ $item->image }}" alt="Service">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row service-wrap-two align-items-center">
-            <div class="col-lg-7">
-                <div class="service-item">
-                    <div class="service-img">
-                        <img src="{{ asset('/') }}assets/front/img/ride/service3.png" alt="Service">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="service-item">
-                    <div class="service-top">
-                        <h1>Ship</h1>
-                        <h2>Send a Package or Carry a Package.</h2>
-                        <h2>Save Time & Avoid Hassle.</h2>
+        @endforeach
 
-                        <p>Need to send something to someone? Give it to a fellow member and bypass the hassle
-                            of courier services.
-                            If you are travelling light, why not carry a package of a fellow member of
-                            TripShipTask?
-                            Save Time and Money. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row service-wrap-three align-items-center">
-            <div class="col-lg-5">
-                <div class="service-item">
-                    <div class="service-top">
-                        <h1>Task</h1>
-                        <h2>Give a Task or Get a Task.</h2>
-                        <h2>Utilize time & Reap Benefits.</h2>
-
-                        <p>You don't have the time? Need to get something done? Why not delegate the task to
-                            someone?
-                            You can help someone with your skill and you are availabe? Why not pick up a task?
-                            Use your time to make money.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-7">
-                <div class="service-item">
-                    <div class="service-img">
-                        <img src="{{ asset('/') }}assets/front/img/ride/service4.png" alt="Service">
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <!-- End Service -->
@@ -480,24 +433,12 @@
     <div class="container">
 
         <div class="banner-team-slider owl-theme owl-carousel">
+            @foreach ($slider as $item)
             <div class="banner-item">
-                <img src="{{ asset('/') }}assets/front/img/banner/item1.jpg" class="banner-item" alt="Team">
+                <img src="{{ asset('/') }}assets/images/slider/{{ $item->image }}" class="banner-item" alt="Team">
             </div>
-            <div class="banner-item">
-                <img src="{{ asset('/') }}assets/front/img/banner/item2.jpg" class="banner-item" alt="Team">
-            </div>
-            <div class="banner-item">
-                <img src="{{ asset('/') }}assets/front/img/banner/item3.jpg" class="banner-item" alt="Team">
-            </div>
-            <div class="banner-item">
-                <img src="{{ asset('/') }}assets/front/img/banner/item4.jpg" class="banner-item" alt="Team">
-            </div>
-            <div class="banner-item">
-                <img src="{{ asset('/') }}assets/front/img/banner/item5.jpg" class="banner-item" alt="Team">
-            </div>
-            <div class="banner-item">
-                <img src="{{ asset('/') }}assets/front/img/banner/item6.jpg" class="banner-item" alt="Team">
-            </div>
+            @endforeach
+
         </div>
     </div>
 </section>
