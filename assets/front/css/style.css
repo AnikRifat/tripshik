@@ -7220,12 +7220,13 @@ Nav Area Style
 /*-- End Navbar --*/
 /*-- Banner --*/
 .ride-banner-area {
-    text-align: center;
+    /* text-align: center; */
     background-color: #fffdfc;
     position: relative;
 }
 
 .ride-banner-area .banner-img img {
+    width: 100%;
     margin-top: 50px;
 }
 
@@ -7488,7 +7489,7 @@ Nav Area Style
 }
 
 .ride-service-area {
-    padding-top: 130px;
+    padding-top: 40px;
     padding-bottom: 130px;
     position: relative;
     overflow: hidden;
@@ -19462,7 +19463,7 @@ Product Details Area Style
 
 /*# sourceMappingURL=style.css.map */
 a.navbar-brand img {
-    height: 3.5rem !important;
+    height: 4.5rem !important;
 }
 
 
@@ -19501,3 +19502,8 @@ a.navbar-brand img {
 .blog-item p {
     font-size: .8rem !important;
 }
+
+.container.slider.text {
+    color: #000;
+}
+

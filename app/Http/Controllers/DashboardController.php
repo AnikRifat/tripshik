@@ -40,9 +40,18 @@ class DashboardController extends Controller
     {
         return view('admin.pages.testimonial.index');
     }
-
-
-
+    public function faq()
+    {
+        return view('admin.pages.faq.index');
+    }
+    public function announcement()
+    {
+        return view('admin.pages.announcement.index');
+    }
+    public function benifit()
+    {
+        return view('admin.pages.benifit.index');
+    }
     /**
      * Show the form for creating a new resource.
      *

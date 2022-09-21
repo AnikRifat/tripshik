@@ -108,6 +108,22 @@ class ContentController extends Controller
         } else {
             unset($input['slider_image']);
         }
+        if ($image = $request->file('banner_image')) {
+            $filePath = 'assets/images/';
+            $setImage = rand(2, 50) . "_banner" . "." . $image->getClientOriginalExtension();
+            $image->move($filePath, $setImage);
+            $input['banner_image'] = $setImage;
+        } else {
+            unset($input['safe_image']);
+        }
+        if ($image = $request->file('safe_image')) {
+            $filePath = 'assets/images/';
+            $setImage = rand(2, 50) . "_safe" . "." . $image->getClientOriginalExtension();
+            $image->move($filePath, $setImage);
+            $input['safe_image'] = $setImage;
+        } else {
+            unset($input['safe_image']);
+        }
 
 
         // dd($content->update($input));

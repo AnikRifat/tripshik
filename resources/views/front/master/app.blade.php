@@ -29,6 +29,7 @@
         <link rel="stylesheet" href="{{ asset('/') }}assets/front/css/swiper.min.css">
         <!-- Style CSS -->
         <link rel="stylesheet" href="{{ asset('/') }}assets/front/css/style.css">
+        {{-- <link rel="stylesheet" href="{{ asset('/') }}assets/front/css/swiper-bundle.min.css"> --}}
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="{{ asset('/') }}assets/front/css/responsive.css">
         <link rel="stylesheet" href="{{ asset('/') }}assets/front/cs/google-translate.css">
@@ -79,7 +80,7 @@
         <!-- Wow JS -->
         <script src="{{ asset('/') }}assets/front/js/wow.min.js"></script>
         <!-- Swiper Slider JS -->
-        <script src="{{ asset('/') }}assets/front/js/swiper.min.js"></script>
+        {{-- <script src="{{ asset('/') }}assets/front/js/swiper-bundle.min.js"></script> --}}
 
         <!-- Custom JS -->
         <script src="{{ asset('/') }}assets/front/js/custom.js"></script>

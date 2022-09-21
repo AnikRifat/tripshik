@@ -272,7 +272,7 @@ jQuery(function ($) {
         loop:true,
 		margin: 20,
         // center:true,
-        stagePadding: 100,
+        // stagePadding: 100,
         // screenLeft:true,
         nav: false,
 		dots: true,
@@ -292,7 +292,7 @@ jQuery(function ($) {
                 items:1,
             },
             1000:{
-                items:1,
+                items:1.25,
             }
         }
     });
@@ -301,7 +301,7 @@ jQuery(function ($) {
         loop:true,
 		margin: 10,
         // center:true,
-        stagePadding: 100,
+        // stagePadding: 100,
         // screenLeft:true,
         nav: false,
 		dots: true,
@@ -317,7 +317,7 @@ jQuery(function ($) {
                 items:1,
             },
             1000:{
-                items:1,
+                items:2.25,
             }
         }
     });

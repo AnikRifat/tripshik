@@ -24,13 +24,6 @@
 
                 </li>
                 <li>
-                    <a href="{{ route('content') }}">
-                        <i data-feather="globe"></i>
-                        <span data-key="t-dashboard">Website</span>
-                    </a>
-
-                </li>
-                <li>
                     <a href="{{ route('slider') }}">
                         <i data-feather="globe"></i>
                         <span data-key="t-dashboard">Slider</span>
@@ -71,7 +64,57 @@
 
                     </ul>
                 </li>
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i data-feather="grid"></i>
+                        <span data-key="t-apps">FAQ</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li>
+                            <a href="{{ route('faq') }}">
+                                <span data-key="t-calendar">View FAQ</span>
+                            </a>
+                            <a href="{{ route('create.faq') }}">
+                                <span data-key="t-calendar">Add FAQ</span>
+                            </a>
+                        </li>
 
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i data-feather="grid"></i>
+                        <span data-key="t-apps">Announcement</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li>
+                            <a href="{{ route('announcement') }}">
+                                <span data-key="t-calendar">View Announcement</span>
+                            </a>
+                            <a href="{{ route('create.announcement') }}">
+                                <span data-key="t-calendar">Add Announcement</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i data-feather="grid"></i>
+                        <span data-key="t-apps">benifit</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li>
+                            <a href="{{ route('benifit') }}">
+                                <span data-key="t-calendar">View benifit</span>
+                            </a>
+                            <a href="{{ route('create.benifit') }}">
+                                <span data-key="t-calendar">Add benifit</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
             </ul>
 
         </div>

@@ -8,7 +8,7 @@
     <div class="page-content">
         <div class="container-fluid">
 
-            <form action="{{route('store.service')}}" method="post" enctype="multipart/form-data">
+            <form action="{{route('update.service',$service->id)}}" method="post" enctype="multipart/form-data">
                 @method('put')
                 @csrf
                 <h5 class="font-size-14 mb-4"><i class="mdi mdi-plus text-primary me-1"></i>Edit Service</h5>
@@ -37,8 +37,8 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="form-floating mb-3">
-                            <input type="text" class="form-control" name="details" id="details"
-                              placeholder="service details" value="{{ $service->details }}">
+                            <textarea type="text" class="form-control" name="details" id="details"
+                              placeholder="service details" rows="5">{{ $service->details }}</textarea>
                             <label for="floatingInput">Service details</label>
                         </div>
                     </div>

@@ -6,6 +6,9 @@ use App\Http\Controllers\ContentController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\SliderController;
 use App\Http\Controllers\TestimonialController;
+use App\Http\Controllers\FaqController;
+use App\Http\Controllers\AnnouncementController;
+use App\Http\Controllers\BenifitController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -47,6 +50,31 @@ Route::prefix('dashboard')->group(function () {
     Route::get('/testimonial/edit/{testimonial}', [TestimonialController::class, 'edit'])->name('edit.testimonial');
     Route::put('/testimonial/update/{testimonial}', [TestimonialController::class, 'update'])->name('update.testimonial');
     Route::delete('/testimonial/destroy/{testimonial}', [TestimonialController::class, 'destroy'])->name('destroy.testimonial');
+
+
+    //faq -routes
+    Route::get('/faq', [DashboardController::class, 'faq'])->name('faq');
+    Route::get('/faq/create', [FaqController::class, 'create'])->name('create.faq');
+    Route::post('/faq/add', [FaqController::class, 'store'])->name('store.faq');
+    Route::get('/faq/edit/{faq}', [FaqController::class, 'edit'])->name('edit.faq');
+    Route::put('/faq/update/{faq}', [FaqController::class, 'update'])->name('update.faq');
+    Route::delete('/faq/destroy/{faq}', [FaqController::class, 'destroy'])->name('destroy.faq');
+
+    //announcement -routes
+    Route::get('/announcement', [DashboardController::class, 'announcement'])->name('announcement');
+    Route::get('/announcement/create', [AnnouncementController::class, 'create'])->name('create.announcement');
+    Route::post('/announcement/add', [AnnouncementController::class, 'store'])->name('store.announcement');
+    Route::get('/announcement/edit/{announcement}', [AnnouncementController::class, 'edit'])->name('edit.announcement');
+    Route::put('/announcement/update/{announcement}', [AnnouncementController::class, 'update'])->name('update.announcement');
+    Route::delete('/announcement/destroy/{announcement}', [AnnouncementController::class, 'destroy'])->name('destroy.announcement');
+
+    //benifit -routes
+    Route::get('/benifit', [DashboardController::class, 'benifit'])->name('benifit');
+    Route::get('/benifit/create', [BenifitController::class, 'create'])->name('create.benifit');
+    Route::post('/benifit/add', [BenifitController::class, 'store'])->name('store.benifit');
+    Route::get('/benifit/edit/{benifit}', [BenifitController::class, 'edit'])->name('edit.benifit');
+    Route::put('/benifit/update/{benifit}', [BenifitController::class, 'update'])->name('update.benifit');
+    Route::delete('/benifit/destroy/{benifit}', [BenifitController::class, 'destroy'])->name('destroy.benifit');
 
 
     //slider -routes

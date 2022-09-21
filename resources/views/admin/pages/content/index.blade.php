@@ -47,6 +47,12 @@
                                     <span class="d-none d-sm-block">About</span>
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link " data-bs-toggle="tab" href="#other" role="tab" aria-selected="true">
+                                    <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
+                                    <span class="d-none d-sm-block">Other Images</span>
+                                </a>
+                            </li>
                         </ul>
 
 
@@ -59,10 +65,12 @@
                                       placeholder="Website..." value="{{ $content->name }}">
                                     <label for="name">Website Name</label>
                                 </div>
+                                <img width="200" src="{{ asset('/') }}assets/images/{{ $content->logo }}" alt="">
                                 <div class="mb-3">
                                     <label for="logo" class="form-label">Website logo</label>
                                     <input class="form-control" type="file" name="logo" id="logo">
                                 </div>
+                                <img width="200" src="{{ asset('/') }}assets/images/{{ $content->favicon }}" alt="">
                                 <div class="mb-3">
                                     <label for="favicon" class="form-label">Website favicon</label>
                                     <input class="form-control" type="file" name="favicon" id="favicon">
@@ -77,8 +85,10 @@
                                       placeholder="Website..." value="{{ $content->yt_link }}">
                                     <label for="yt_link">slider youtube link</label>
                                 </div>
-
+                                <img width="200" src="{{ asset('/') }}assets/images/{{ $content->slider_image }}"
+                                  alt="">
                                 <div class="mb-3">
+
                                     <label for="slider" class="form-label">Website slider</label>
                                     <input class="form-control" type="file" name="slider_image" id="slider">
                                 </div>
@@ -122,6 +132,23 @@
                                         <textarea id="ckeditor-about" name="about">{!! $content->about !!}</textarea>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="tab-pane " id="other" role="tabpanel">
+                                <p class="mb-0">
+                                    <img width="200" src="{{ asset('/') }}assets/images/{{ $content->banner_image }}"
+                                      alt="">
+                                <div class="mb-3">
+
+                                    <label for="banner_image" class="form-label">Website banner image</label>
+                                    <input class="form-control" type="file" name="banner_image" id="banner_image">
+                                </div>
+                                <img width="200" src="{{ asset('/') }}assets/images/{{ $content->safe_image }}" alt="">
+                                <div class="mb-3">
+
+                                    <label for="safe_image" class="form-label">Website safe image</label>
+                                    <input class="form-control" type="file" name="safe_image" id="safe_image">
+                                </div>
+                                </p>
                             </div>
                         </div>
 

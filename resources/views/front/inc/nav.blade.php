@@ -36,16 +36,14 @@
 
                 <select name="" id="">
                     <option value="">English</option>
-                    <option value="">Bengali</option>
-                    <option value="">Arabic</option>
                 </select>
 
             </div>
             <div class="purchase-btn">
-                <a href="{{ route('login') }}">Login</a>
+                <a href="https://tripshiptask.abaacorp.com/login">Login</a>
             </div>
             <div class="purchase-btn">
-                <a href="{{ route('register') }}">Sign up</a>
+                <a href="https://tripshiptask.abaacorp.com/register">Sign up</a>
             </div>
         </div>
     </div>

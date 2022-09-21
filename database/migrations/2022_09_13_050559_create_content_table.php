@@ -22,6 +22,8 @@ return new class extends Migration
             $table->string('yt_link');
             $table->string('slider_text');
             $table->string('slider_image');
+            $table->string('banner_image');
+            $table->string('safe_image');
             $table->text('email');
             $table->string('phone');
             $table->string('address');

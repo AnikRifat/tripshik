@@ -11,20 +11,12 @@
         </div>
         <div class="container">
             <div class="banner-item">
-                <div class="banner-video">
+                <div class="banner-video text-center">
                     <a href="https://www.youtube.com/watch?v=aqz-KE-bpKQ" class="popup-youtube">
                         <i class='bx bx-play'></i>
                     </a>
                 </div>
-                <h1>
-                    connect with others
-                    <br>
-                    to give or get rides
-                    send or receive any goods
-                    <br>
-                    give or get tasks
-                    & make money while you are at it.
-                </h1>
+                <div class="container slider text">{!! $content->slider_text !!}</div>
 
                 {{-- <h1>Personal and Friendly Ride <span>Sharing in City</span></h1> --}}
 
@@ -35,20 +27,20 @@
     <section class="safety-section pt-100 pb-70">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2"><img
-                      src="{{ asset('/')}}assets/front/img/info/Avoid_Off-App_Transaction-removebg-preview.png " alt="">
+                @foreach ($benifits as $item)
+                <div class="col-md-6 col-lg-4 col-12">
+                    <div class="row">
+                        <div class="col-4 col-lg-4">
+                            <img src="{{ asset('/') }}/assets/images/benifit/{{ $item->image }}" alt="">
+                        </div>
+                        <div class="col-8 col-lg-8">
+                            <h6 class="mb-2 font-weight-bold"> <strong>{{ $item->title }}</strong> </h6>
+                            <p> <small>{{ $item->details }}</small> </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-2"><img
-                      src="{{ asset('/')}}assets/front/img/info/Cancellation_Fee-removebg-preview.png " alt=""></div>
-                <div class="col-md-2"><img
-                      src="{{ asset('/')}}assets/front/img/info/Check_Shipping_Content-removebg-preview.png " alt="">
-                </div>
-                <div class="col-md-2"><img
-                      src="{{ asset('/')}}assets/front/img/info/Confirm_and_Go-removebg-preview.png " alt=""></div>
-                <div class="col-md-2"><img
-                      src="{{ asset('/')}}assets/front/img/info/Digital_Payment-removebg-preview.png " alt=""></div>
-                <div class="col-md-2"><img src="{{ asset('/')}}assets/front/img/info/Feedback-removebg-preview.png "
-                      alt=""></div>
+                @endforeach
+
             </div>
         </div>
     </section>
@@ -218,7 +210,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <img src="{{ asset('/') }}assets/front/img/ride/safety.png" alt="" class="w-100">
+                <img src="{{ asset('/') }}assets/images/{{ $content->safe_image }}" alt="" class="w-100">
             </div>
         </div>
 
@@ -555,93 +547,29 @@
         <div class="app-review-slider">
             <div class="main">
                 <div class="slider-for">
+                    @foreach ($testimonials as $item)
                     <div>
-                        <p>Pioners ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                            viverra</p>
+                        <p>{{ $item->comment }}</p>
                     </div>
-                    <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley</p>
-                    </div>
-                    <div>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                            more-or-less normal distribution of letters</p>
-                    </div>
-                    <div>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
-                            model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy</p>
-                    </div>
-                    <div>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable</p>
-                    </div>
-                    <div>
-                        <p>f you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
-                            tend</p>
-                    </div>
+                    @endforeach
+
+
                 </div>
 
                 <div class="slider-nav">
+                    @foreach ($testimonials as $item)
                     <div>
                         <div class="review-img">
-                            <img src="{{ asset('/') }}assets/front/img/app/client/1.png" alt="Feedback">
+                            <img src="{{ asset('/') }}assets/images/slider/{{ $item->image }}" alt="Feedback">
                         </div>
                         <div class="review-details">
-                            <h3>Adision Smith</h3>
-                            <span>Director at Ds software Ltd.</span>
+                            <h3>{{ $item->name }}</h3>
+                            <span>{{ $item->type }}</span>
                         </div>
                     </div>
-                    <div>
-                        <div class="review-img">
-                            <img src="{{ asset('/') }}assets/front/img/app/client/2.png" alt="Feedback">
-                        </div>
-                        <div class="review-details">
-                            <h3>John Cena</h3>
-                            <span>Director at Evo software Ltd.</span>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="review-img">
-                            <img src="{{ asset('/') }}assets/front/img/app/client/3.png" alt="Feedback">
-                        </div>
-                        <div class="review-details">
-                            <h3>Mac Smith</h3>
-                            <span>Director at Hibo software Ltd.</span>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="review-img">
-                            <img src="{{ asset('/') }}assets/front/img/app/client/4.png" alt="Feedback">
-                        </div>
-                        <div class="review-details">
-                            <h3>Shane Watson</h3>
-                            <span>Director at Max software Ltd.</span>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="review-img">
-                            <img src="{{ asset('/') }}assets/front/img/app/client/1.png" alt="Feedback">
-                        </div>
-                        <div class="review-details">
-                            <h3>Adision Smith</h3>
-                            <span>Director at Pacia software Ltd.</span>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="review-img">
-                            <img src="{{ asset('/') }}assets/front/img/app/client/2.png" alt="Feedback">
-                        </div>
-                        <div class="review-details">
-                            <h3>John Cena</h3>
-                            <span>Director at Unique software Ltd.</span>
-                        </div>
-                    </div>
+                    @endforeach
+
+
                 </div>
             </div>
         </div>
@@ -659,26 +587,13 @@
             <div class="col-lg-6">
                 <div class="faq-item">
                     <ul class="accordion">
+                        @foreach ($faqs as $item)
                         <li>
-                            <a>How much does Tripshiptaskdrive cost in your city?</a>
-                            <p>Costing ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
+                            <a>{{ $item->ques }}</a>
+                            <p>{{ $item->ans }}</p>
                         </li>
-                        <li>
-                            <a>How to enter a pickup location?</a>
-                            <p>Costing ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
-                        </li>
-                        <li>
-                            <a>Calculate a fare estimate for your next?</a>
-                            <p>Costing ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
-                        </li>
-                        <li>
-                            <a>when destination to get started?</a>
-                            <p>Costing ipsum dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
-                        </li>
+                        @endforeach
+
                     </ul>
                 </div>
             </div>
@@ -711,28 +626,24 @@
             </div> --}}
         </div>
         <div class="update-item-slider owl-theme owl-carousel">
+            @foreach ($announcements as $item)
             <div class="blog-item">
                 <div class="blog-img">
-                    <img src="{{ asset('/') }}assets/front/img/ride/blog1.jpg" alt="Blog">
+                    <img src="{{ asset('/') }}assets/images/announcement/{{ $item->image }}" alt="Blog">
                 </div>
                 <div class="blog-inner">
                     <div class="blog-top">
-                        <span>31 january 2020</span>
+                        <span>{{ $item->date }}</span>
                         <h3>
-                            <a href="#">Long journey for family with Tripshiptask riding </a>
+                            <a href="#">{{ $item->title }}</a>
                         </h3>
                     </div>
                     <div class="blog-bottom">
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                            Aldus PageMaker including versions of Lorem Ipsum</p>
+                        <p>{{ $item->details }}</p>
                     </div>
                 </div>
             </div>
-
+            @endforeach
 
         </div>
         <div class="row">
@@ -749,7 +660,7 @@
 <section class="footer-banner-area pt-100 pb-70">
 
     <div class="w-100">
-        <img src="{{ asset('/') }}assets/front/img/ride/banner.png" class="w-100" alt="Register">
+        <img src="{{ asset('/') }}assets/images/{{ $content->banner_image }}" class="w-100" alt="Register">
     </div>
 </section>
 <!-- End Register -->

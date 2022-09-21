@@ -2,99 +2,61 @@
 <footer class="host-footer-area pt-100 pb-70">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-6 col-lg-2">
                 <div class="footer-item">
                     <div class="footer-account">
-                        <h3>My Account</h3>
+                        <h3>Quick Links</h3>
                         <ul>
                             <li>
-                                <a href="#">Press inquiries</a>
+                                <a href="http://tripshiptask.com/terms-condition">Terms & Condition</a>
                             </li>
                             <li>
-                                <a href="#">Social media directories</a>
+                                <a href="http://tripshiptask.com/privacy-policy">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="#">Images & B-roll</a>
+                                <a href="http://tripshiptask.com/data-policy">Data Policy</a>
                             </li>
                             <li>
-                                <a href="#">Permissions</a>
+                                <a href="http://tripshiptask.com/cookie-policy">Cookies</a>
                             </li>
                             <li>
-                                <a href="#">Speaker requests</a>
+                                <a href="http://tripshiptask.com/acceptable-use-policy">Acceptable Use </a>
+                            </li>
+                            <li>
+                                <a href="http://tripshiptask.com/copyright-policy">Copyright Policy</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-3">
+            <div class="col-sm-12 col-lg-7">
                 <div class="footer-item">
-                    <div class="footer-account">
-                        <h3>About Us</h3>
-                        <ul>
-                            <li>
-                                <a href="#">Customer support</a>
-                            </li>
-                            <li>
-                                <a href="#">Support center</a>
-                            </li>
-                            <li>
-                                <a href="#">About us</a>
-                            </li>
-                            <li>
-                                <a href="#">Copyright</a>
-                            </li>
-                            <li>
-                                <a href="#">Popular pakage</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <img src="{{ asset('/') }}assets/images/{{ $content->logo }}" class="footer-logo w-100" alt="">
                 </div>
             </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class="footer-item">
-                    <div class="footer-account">
-                        <h3>Our Information</h3>
-                        <ul>
-                            <li>
-                                <a href="#">Return policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Terms & conditions</a>
-                            </li>
-                            <li>
-                                <a href="#">Privacy policy</a>
-                            </li>
-                            <li>
-                                <a href="#">Site map</a>
-                            </li>
-                            <li>
-                                <a href="#">Store hours</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+
             <div class="col-sm-6 col-lg-3">
                 <div class="footer-item">
                     <div class="footer-address">
-                        <h3>Address</h3>
+                        <h3>Support</h3>
                         <ul>
                             <li>
-                                <i class='bx bx-phone-call'></i>
                                 <a href="#">
-                                    +000 000 000 0000
+                                    <i class='bx bx-phone-call'></i>
+
+                                    {{ $content->phone }}
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <i class='bx bx-envelope'></i>
-                                    support@tripshiptask.com
+                                    {{ $content->email }}
                                 </a>
                             </li>
 
                             <li>
                                 <i class='bx bx-current-location'></i>
-                                <span> new york 600</span>
+                                <span> {{ $content->address }}</span>
                             </li>
                         </ul>
                     </div>

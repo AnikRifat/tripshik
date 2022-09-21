@@ -16,6 +16,8 @@ class Content extends Model
         'yt_link',
         'slider_text',
         'slider_image',
+        'banner_image',
+        'safe_image',
         'email',
         'phone',
         'address',

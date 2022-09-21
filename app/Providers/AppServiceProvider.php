@@ -2,7 +2,10 @@
 
 namespace App\Providers;
 
+use App\Models\Announcement;
+use App\Models\Benifit;
 use App\Models\Content;
+use App\Models\Faq;
 use App\Models\Position;
 use App\Models\Service;
 use App\Models\Slider;
@@ -41,5 +44,14 @@ class AppServiceProvider extends ServiceProvider
 
         $testimonials = Testimonial::all();
         view::share('testimonials', $testimonials);
+
+
+        $faqs = Faq::all();
+        view::share('faqs', $faqs);
+
+        $announcements = Announcement::all();
+        view::share('announcements', $announcements);
+        $benifits = Benifit::all();
+        view::share('benifits', $benifits);
     }
 }
