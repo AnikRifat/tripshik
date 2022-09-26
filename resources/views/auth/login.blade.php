@@ -19,6 +19,7 @@
     <div class="container">
         <div class="contact-form-action">
             <form action="{{ route('login') }}" method="post">
+                @csrf
                 <div class="row">
 
                     <div class="col-12">

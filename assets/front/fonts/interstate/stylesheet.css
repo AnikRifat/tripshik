@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-LightCond.woff2') format('woff2'),
+        url('Interstate-LightCond.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

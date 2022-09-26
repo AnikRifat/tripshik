@@ -27,7 +27,7 @@ use Illuminate\Support\Facades\Route;
 //Admin::routes
 Route::get('/', [FrontController::class, 'index'])->name('index');
 
-Route::prefix('dashboard')->group(function () {
+Route::prefix('dashboard')->middleware('auth', 'isAdmin')->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 
 

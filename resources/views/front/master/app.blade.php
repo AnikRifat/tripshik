@@ -5,6 +5,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="stylesheet" href="{{ asset('/') }}assets/front/fonts/interstate/Interstate-LightCond.woff2"
+          as=" font" type="font/woff2" crossorigin>
+        <link rel="stylesheet" href="{{ asset('/') }}assets/front/fonts/butler/Butler.woff2" as=" font"
+          type="font/woff2" crossorigin>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('/') }}assets/front/css/bootstrap.min.css">
         <!-- Boxicons CSS -->

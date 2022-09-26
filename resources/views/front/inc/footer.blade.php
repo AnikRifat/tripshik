@@ -30,8 +30,8 @@
                 </div>
             </div>
             <div class="col-sm-12 col-lg-7">
-                <div class="footer-item">
-                    <img src="{{ asset('/') }}assets/images/{{ $content->logo }}" class="footer-logo w-100" alt="">
+                <div class="footer-item text-center">
+                    <img src="{{ asset('/') }}assets/images/{{ $content->logo }}" class="footer-logo w-75" alt="">
                 </div>
             </div>
 

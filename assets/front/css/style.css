@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&amp;display=swap");
 
+.your-style {
+    font-family: 'Interstate';
+    font-weight: 300;
+    font-style: normal;
+}
+
 /*-- Soft Landing Color --*/
 /*-- App Landing Color --*/
 /*-- Charity Landing Color --*/
@@ -8,9 +14,11 @@
 /*-- SEO Landing Color --*/
 /*-- Default CSS --*/
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Interstate";
     color: #777777;
     background-color: #ffffff;
+    font-weight: 300;
+    font-style: normal;
     font-size: 16px;
 }
 
@@ -21,7 +29,7 @@ h4,
 h5,
 h6 {
     line-height: 1.3;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Butler";
 }
 
 p {
@@ -3585,7 +3593,7 @@ Nav Area Style
 
 .app-tools-area .tools-item .tools-inner-wrap ul li span {
     display: inline-block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Butler";
     font-weight: 600;
     font-size: 16px;
     color: #08104d;
@@ -3655,7 +3663,7 @@ Nav Area Style
 }
 
 .app-record-area .record-item .record-inner p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Butler";
     font-weight: 500;
     font-size: 16px;
     color: #ffffff;
@@ -3775,7 +3783,7 @@ Nav Area Style
     display: block;
     color: #08104d;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Butler";
 }
 
 .app-work-area .work-item .work-inner-right {
@@ -4449,7 +4457,7 @@ Nav Area Style
     font-size: 25px;
     text-align: center;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Butler";
     max-width: 955px;
     margin-left: auto;
     margin-right: auto;
@@ -6089,7 +6097,7 @@ Nav Area Style
     font-weight: 600;
     font-size: 19px;
     color: #08104d;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     margin-bottom: 12px;
 }
 
@@ -6275,7 +6283,7 @@ Nav Area Style
 
 .host-pricing-area .pricing-wrap .pricing-item .pricing-middle h3 {
     color: #ffffff;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 0;
@@ -6604,7 +6612,7 @@ Nav Area Style
 .host-people-area .people-item .people-inner h3 {
     font-weight: 500;
     font-size: 15px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     color: #ffffff;
     margin-bottom: 5px;
 }
@@ -8442,7 +8450,7 @@ Nav Area Style
 }
 
 .ride-pricing-area .pricing-item .pricing-top h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     font-weight: 600;
     font-size: 45px;
     color: #ffffff;
@@ -9027,7 +9035,7 @@ Nav Area Style
 .ride-register-area .register-item h3 {
     font-size: 20px;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     margin-bottom: 12px;
 }
 
@@ -9311,7 +9319,7 @@ Nav Area Style
 }
 
 .charity-banner-area .banner-content p {
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     font-weight: 500;
     font-size: 17px;
     color: #ffffff;
@@ -9491,7 +9499,7 @@ Nav Area Style
 
 .charity-about-area .about-item h3 {
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     font-size: 20px;
     color: #08104d;
     margin-bottom: 6px;
@@ -10093,7 +10101,7 @@ Nav Area Style
     font-weight: 600;
     font-size: 18px;
     color: #08104d;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     margin-bottom: 13px;
 }
 
@@ -10271,7 +10279,7 @@ Nav Area Style
     font-weight: 600;
     font-size: 33px;
     color: #ffffff;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     margin-bottom: 2px;
 }
 
@@ -10352,7 +10360,7 @@ Nav Area Style
     color: #08104d;
     font-weight: 600;
     font-size: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
 }
 
 .charity-team-area .charity-item .charity-bottom span {
@@ -10439,7 +10447,7 @@ Nav Area Style
 
 .charity-wide-area .wide-item .wide-bottom h3 {
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     font-size: 27px;
     color: #ffffff;
     margin-bottom: 12px;
@@ -11299,7 +11307,7 @@ Nav Area Style
 
 .export-banner-area .banner-content p {
     margin-bottom: 35px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Butler";
     font-size: 17px;
     color: #ffffff;
     max-width: 700px;
@@ -11716,7 +11724,7 @@ Nav Area Style
     font-weight: 600;
     font-size: 35px;
     color: #262424;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     margin-bottom: 6px;
 }
 
@@ -11861,7 +11869,7 @@ Nav Area Style
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 12px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
 }
 
 .export-company-area .company-item p {
@@ -12014,7 +12022,7 @@ Nav Area Style
 .export-work-area .work-item .work-inner h3 {
     font-weight: 600;
     font-size: 19px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     color: #08104d;
     margin-bottom: 12px;
 }
@@ -12266,7 +12274,7 @@ Nav Area Style
     padding-top: 3px;
     font-size: 20px;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     color: #4a4a4a;
     margin-bottom: 8px;
     padding-left: 100px;
@@ -12361,7 +12369,7 @@ Nav Area Style
 
 .export-blog-area .blog-item .blog-top .blog-head h3 {
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     font-size: 22px;
     color: #ffffff;
     margin-bottom: 0;
@@ -12730,7 +12738,7 @@ Nav Area Style
 
 .event-banner-area .banner-content .banner-text span {
     display: block;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Butler";
     font-size: 75px;
     color: #ffffff;
 }
@@ -13094,7 +13102,7 @@ Nav Area Style
 .event-benefit-area .benefit-item h3 {
     font-weight: 600;
     font-size: 20px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     color: #08104d;
     margin-bottom: 8px;
 }
@@ -13967,7 +13975,7 @@ Nav Area Style
 .event-pricing-area .pricing-wrap .pricing-item .pricing-top h3 {
     font-weight: 600;
     font-size: 37px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     margin-bottom: 0;
     background: linear-gradient(49deg, #e4392e 0%, #ec6a1c 57%);
     background-clip: text;
@@ -14685,7 +14693,7 @@ Nav Area Style
     color: #262424;
     font-size: 18px;
     font-weight: 500;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     padding-left: 80px;
     padding-top: 6px;
 }
@@ -14813,7 +14821,7 @@ Nav Area Style
 .seo-introduce-area .introduce-item ul li .introduce-left h3 {
     font-weight: 500;
     font-size: 25px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     color: #08104d;
     padding-left: 60px;
     margin-bottom: 0;
@@ -14989,7 +14997,7 @@ Nav Area Style
     font-weight: 600;
     font-size: 20px;
     color: #08104d;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     margin-bottom: 12px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -15071,7 +15079,7 @@ Nav Area Style
     font-weight: 500;
     font-size: 40px;
     color: #ffffff;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     margin-bottom: 0;
     margin-top: 37px;
 }
@@ -15635,7 +15643,7 @@ Nav Area Style
     font-weight: 600;
     font-size: 37px;
     color: #ff0000;
-    font-family: "Poppins", sans-serif;
+    font-family: "Butler";
     margin-bottom: 0;
     display: inline-block;
     margin-top: 25px;
@@ -19506,4 +19514,3 @@ a.navbar-brand img {
 .container.slider.text {
     color: #000;
 }
-

@@ -40,10 +40,10 @@
 
             </div>
             <div class="purchase-btn">
-                <a href="https://tripshiptask.abaacorp.com/login">Login</a>
+                <a href="http://tripshiptask.com/">Login</a>
             </div>
             <div class="purchase-btn">
-                <a href="https://tripshiptask.abaacorp.com/register">Sign up</a>
+                <a href="http://tripshiptask.com/register">Sign up</a>
             </div>
         </div>
     </div>
